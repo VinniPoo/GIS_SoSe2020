@@ -1,0 +1,179 @@
+body{
+    background-image: url(Hintergrund.png);
+    font-family: sans-serif;
+    color: #000000;
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+}
+.empty_header_bar{
+    background-color: rgb(6, 150, 187);
+    width: 800px;
+    height: 20px;
+    margin-top: 59px;
+}
+.header{
+    background-color: rgb(42, 113, 176);
+    width: auto;
+    height: 90px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#Logo{
+    margin-top: 21px;
+    margin-left: 11px;
+}
+.Liste{
+    position: sticky;
+    top: -1px;
+    padding: 0px;
+    margin-top: -96.5px;
+    margin-left: auto;
+    z-index: 100;
+}
+.Navigation{
+    list-style-type: none;
+    background-color: black;
+    margin-left: auto;
+    width: 208px;
+    padding: 1.5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: white;
+}
+/*nav{
+    position: fixed;
+    top: 0px;
+    right: 18.5%;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    width: 230px;
+    height: 20px;
+    text-align: center;
+    z-index: 100;
+}*/
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: rgb(6, 150, 187);
+}
+#aktuell{
+    color: rgb(6, 150, 187);
+}
+li{
+    display: inline;
+}
+h1{
+    text-align: center;
+    color: black;
+    margin-top: -37px;
+}
+#Abstand2{
+    margin-top: 80px;
+}
+i{
+    color: rgb(6, 150, 187);
+    font-size: 110%;
+}
+audio{
+    width: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: rgb(6, 150, 187);
+    border-style: dashed;
+    border-width: 3px;
+    border-radius: 30px;
+}
+h2{
+    margin-top: 100px;
+}
+video{
+    border-style: solid;
+    border-color: rgb(6, 150, 187);
+    border-width: 3px;
+}
+.Rahmen{
+    border-style: solid;
+    border-color: rgb(6, 150, 187);
+    border-width: 3px;
+}
+.Center{
+    text-align: center;
+}
+#Abstand3{
+    margin-top: 100px;
+}
+#textarea1{
+    border: 3px double rgb(6, 150, 187);
+    width: 790px;
+}
+#textarea2{
+    background-color: rgb(184, 184, 184);
+    color: white;
+    width: 300px;
+    margin-top: 5px;
+    border-style: inset;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.Links{
+    list-style-type: none;
+    padding-left: 0px;
+    position: static;
+    bottom: 20px;
+    left: auto;
+    right: auto;
+    width: 800px;
+}
+.Links :hover{
+    transform: scale(1.5);
+}
+form :hover{
+    transform: scale(1.3);
+    color: rgb(6, 150, 187);
+}
+#Linksbündig{
+    text-align: left;
+}
+#Blubb{
+    margin-top: 500px;
+}
+h3{
+    text-align: center;
+}
+input{
+    background-color: rgb(184, 184, 184);
+    color: white;
+    margin-top: 5px;
+}
+.fix{
+    position: static;
+    left: auto;
+    right: auto;
+    width: 800px;
+}
+#Nachricht{
+    margin-top: 100px;
+}
+#Mario{
+    margin-top: 200px;
+}
+#Button{
+    background-color: rgb(184, 184, 184);
+    color: white;
+}
+#color{
+    color: rgb(184, 184, 184);
+}
+.Zeile{
+    display: inline;
+}
