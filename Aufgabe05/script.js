@@ -1,6 +1,6 @@
 "use strict";
-var Aufgabe06;
-(function (Aufgabe06) {
+var Aufgabe05;
+(function (Aufgabe05) {
     let produkte = [
         { url: "Bilder/Solo_Pro.png",
             name: "Sounds Solo Pro",
@@ -138,5 +138,5 @@ var Aufgabe06;
         newButton.type = "submit";
         document.getElementById("Produkte" + index)?.appendChild(newButton);
     }
-})(Aufgabe06 || (Aufgabe06 = {}));
+})(Aufgabe05 || (Aufgabe05 = {}));
 //# sourceMappingURL=script.js.map
