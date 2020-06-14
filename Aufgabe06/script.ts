@@ -1,4 +1,4 @@
-namespace Aufgabe06 {
+ namespace Aufgabe06 {
 
     interface Artikel {
         url: string;
