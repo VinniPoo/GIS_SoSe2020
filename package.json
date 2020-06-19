@@ -1,0 +1,22 @@
+{
+  "name": "vyndel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Aufgabe08/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinniPoo/GIS_SoSe2020.git"
+  },
+  "author": "vincent_dehmel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinniPoo/GIS_SoSe2020/issues"
+  },
+  "homepage": "https://github.com/VinniPoo/GIS_SoSe2020#readme",
+  "dependencies": {
+    "@types/node": "^14.0.13"
+  }
+}
