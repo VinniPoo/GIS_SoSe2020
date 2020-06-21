@@ -11,23 +11,36 @@
 <body>
     <form action="https://vinnipooh.herokuapp.com/" method="GET">
 
-        <input type="text" name="Vorname" placeholder="Vorname"> <br>
-        <input type="text" name="Nachname" placeholder="Nachname"> <br>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br>
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="other">Other</label> <br>
-        <label for="Augenfarben">Wähle deine Augenfarbe:</label>
-        <select id="Augenfarbe" name="Augenfarbe">
-            <option value="Blau">Blau</option>
-            <option value="Braun">Braun</option>
-            <option value="Grün">Grün</option>
-            <option value="Rot">Rot</option>
-            <option value="Regenbogen">Regenbogen</option>
-        </select> <br>
-        <button type="button" id="button">piss dich</button>
+        <fieldset>
+            <legend>Alle deine Daten:</legend>
+            <label for="Vorname">Ich heiße</label>
+            <input type="text" name="Vorname" placeholder="Vorname" id="Vorname">
+            <input type="text" name="Nachname" placeholder="Nachname" id="Nachname"> <br> <br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label> <br> <br>
+            <label for="Augenfarben">Wähle deine Augenfarbe:</label>
+            <select id="Augenfarbe" name="Augenfarbe">
+                <option value="Blau">Blau</option>
+                <option value="Braun">Braun</option>
+                <option value="Grün">Grün</option>
+                <option value="Rot">Rot</option>
+                <option value="Regenbogen">Regenbogen</option>
+            </select> <br> <br>
+            <label for="titel">Nenne deinen akademischen Grad:</label>
+            <input list="titel" name="titel">
+            <datalist id="titel">
+                <option value="Professor">
+                <option value="Diplom">
+                <option value="Doktor">
+                <option value="Keiner, weil ich nichts kann">
+            </datalist> <br> <br>
+            <label for="button">Und jetzt </label>
+            <button type="button" id="button">zisch ab</button>
+        </fieldset>
 
     </form>
 

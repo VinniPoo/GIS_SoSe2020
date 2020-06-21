@@ -6,6 +6,7 @@ async function ausgeben(_event) {
     let url = "https://vinnipooh.herokuapp.com/";
     let query = new URLSearchParams(formData);
     url = url + "?" + query.toString();
+    console.log(query.toString());
     await fetch(url);
     for (let entry of query) {
         console.log(entry);

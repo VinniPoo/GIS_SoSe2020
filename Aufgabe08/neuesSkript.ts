@@ -6,6 +6,7 @@ async function ausgeben(_event: Event): Promise<void> {
     let url: string = "https://vinnipooh.herokuapp.com/";
     let query: URLSearchParams = new URLSearchParams(<any>formData);
     url = url + "?" + query.toString();
+    console.log(query.toString());
     await fetch(url);
     for (let entry of query) {
         console.log(entry);
