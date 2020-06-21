@@ -83,20 +83,29 @@ namespace Aufgabe07 {
         document.getElementById("Boxen1")?.addEventListener("click", hide2);
         document.getElementById("all")?.addEventListener("click", hide3);
 
+        let warenkorb: Artikel [] = new Array;
+
         function warenAnzahl(this: Artikel, _event: Event): void {
             warenZähler++;
             amount.innerHTML = warenZähler.toString();
+            //amount.innerHTML = JSON.parse(localStorage.getItem("name")!).length;
             //console.log(warenZähler);
 
             //preis += parseFloat((<HTMLInputElement>_event.target)?.getAttribute("preis")!);
             preis += this.preis;
             console.log(preis + " €");
+            //document.getElementById("Warenkorb")?.appendChild(amount);
+
+
+            warenkorb.push(this);
+            localStorage.setItem("name", JSON.stringify(warenkorb));
             document.getElementById("Warenkorb")?.appendChild(amount);
 
-
-
-            localStorage.setItem("name" + warenZähler, this.name);
-            localStorage.setItem("produktAnzahl", warenZähler.toString());
+            amount.innerHTML = JSON.parse(localStorage.getItem("name")!).length;
+            //console.log(warenkorb.length);
+            //console.log(warenkorb);
+            //localStorage.setItem("name" + warenZähler, this.name);
+            //localStorage.setItem("produktAnzahl", warenZähler.toString());
             //(<HTMLElement>document.getElementById("overEar")).innerHTML = localStorage.getItem("click")!;
         }
     }
