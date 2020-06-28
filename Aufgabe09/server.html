@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe08</title>
+    <script src="serverAusgabe.js" defer></script>
+</head>
+
+<body>
+    <form action="https://vinnipooh.herokuapp.com" method="GET">
+
+        <fieldset>
+            <legend>Alle deine Daten:</legend>
+            <label for="Vorname">Ich heiße</label>
+            <input type="text" name="Vorname" placeholder="Vorname" id="Vorname">
+            <input type="text" name="Nachname" placeholder="Nachname" id="Nachname"> <br> <br>
+            <input type="radio" id="männlich" name="Geschlecht" value="Männlich">
+            <label for="männlich">Männlich</label><br>
+            <input type="radio" id="weiblich" name="Geschlecht" value="Weiblich">
+            <label for="weiblich">Weiblich</label><br>
+            <input type="radio" id="divers" name="Geschlecht" value="Divers">
+            <label for="divers">Divers</label> <br> <br>
+            <label for="Augenfarbe">Wähle deine Augenfarbe:</label>
+            <select id="Augenfarbe" name="Augenfarbe">
+                <option value="Blau">Blau</option>
+                <option value="Braun">Braun</option>
+                <option value="Grün">Grün</option>
+                <option value="Rot">Rot</option>
+                <option value="Regenbogen">Regenbogen</option>
+            </select> <br> <br>
+            <label for="titel">Nenne deinen akademischen Grad:</label>
+            <input list="titel" name="Titel">
+            <datalist id="titel">
+                <option value="Professor">
+                <option value="Diplom">
+                <option value="Doktor">
+                <option value="Keiner, weil ich nichts kann">
+            </datalist> <br> <br>
+            <button type="button" id="button">Html</button>
+            <button type="button" id="button2">Json</button>
+        </fieldset>
+
+    </form>
+
+    <div id="myDiv"></div>
+
+</body>
+
+</html>
