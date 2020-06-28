@@ -1,7 +1,7 @@
 namespace Aufgabe09 {
     async function htmlAusgabe(_event: Event): Promise<void> {
         let formData: FormData = new FormData(document.forms[0]);
-        let url: string = "https://vinnipooh.herokuapp.com/";
+        let url: string = "https://vinnipooh.herokuapp.com";
         let query: URLSearchParams = new URLSearchParams(<any>formData);
         url = url + "/html";
         url = url + "?" + query.toString();

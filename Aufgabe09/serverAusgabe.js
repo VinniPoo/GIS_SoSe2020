@@ -3,7 +3,7 @@ var Aufgabe09;
 (function (Aufgabe09) {
     async function htmlAusgabe(_event) {
         let formData = new FormData(document.forms[0]);
-        let url = "https://vinnipooh.herokuapp.com/";
+        let url = "https://vinnipooh.herokuapp.com";
         let query = new URLSearchParams(formData);
         url = url + "/html";
         url = url + "?" + query.toString();
