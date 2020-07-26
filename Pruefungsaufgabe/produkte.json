@@ -1,0 +1,182 @@
+[
+    {
+        "bild": "Bilder/Eiswaffeln-Klein.png",
+        "name": "Eiswaffel klein",
+        "preis": 0.11,
+        "kategorie": "0"
+    },
+    {
+        "bild": "Bilder/Eiswaffel_Groß.png",
+        "name": "Eiswaffel groß",
+        "preis": 0.11,
+        "kategorie": "0"
+    },
+    {
+        "bild": "Bilder/Eisbecher-Klein.png",
+        "name": "Eisbecher klein",
+        "preis": 0.21,
+        "kategorie": "0"
+    },
+    {
+        "bild": "Bilder/Eisbecher-Groß1.png",
+        "name": "Eiswaffel groß",
+        "preis": 0.21,
+        "kategorie": "0"
+    },
+    {
+        "bild": "Bilder/Apfelmus-Pfannkuchen.png",
+        "name": "Apfelmus-Pfannkuchen",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Avokado.png",
+        "name": "Avocado-Physalis",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Baileys.png",
+        "name": "Baileys",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Bier.png",
+        "name": "Bier",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Birne-Karamell.png",
+        "name": "Birne-Karamell",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Brownies.png",
+        "name": "Brownies",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Dattel-Cashew.png",
+        "name": "Dattel-Cashew",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Erdbeer-Käsekuchen.png",
+        "name": "Erdbeer-Käsekuchen",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Gummibärchen.png",
+        "name": "Gummibärchen",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Gurke.png",
+        "name": "Gurke",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Himbeer-Crumble.png",
+        "name": "Himbeer-Crumble",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Orange-Schokolade.png",
+        "name": "Orange-Schokolade",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Pflaume-Pistazie.png",
+        "name": "Pflaume-Pistazie",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Rosmarin-Oregano.png",
+        "name": "Rosmarin-Oregano",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Rum-Rosinen.png",
+        "name": "Rum-Rosine",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Walnuss-Whiskey.png",
+        "name": "Walnuss-Whiskey",
+        "preis": 0.99,
+        "kategorie": "1"
+    },
+    {
+        "bild": "Bilder/Cookie-Teig.png",
+        "name": "Cookie-Teig",
+        "preis": 0.51,
+        "kategorie": "2"
+    },
+    {
+        "bild": "Bilder/Maoam.png",
+        "name": "Maoams",
+        "preis": 0.51,
+        "kategorie": "2"
+    },
+    {
+        "bild": "Bilder/Marshmallows.png",
+        "name": "Marshmallows",
+        "preis": 0.51,
+        "kategorie": "2"
+    },
+    {
+        "bild": "Bilder/Oreos.png",
+        "name": "Oreos",
+        "preis": 0.51,
+        "kategorie": "2"
+    },
+    {
+        "bild": "Bilder/Popcorn.png",
+        "name": "Popcorn",
+        "preis": 0.51,
+        "kategorie": "2"
+    },
+    {
+        "bild": "Bilder/Sahne.png",
+        "name": "Sahne",
+        "preis": 0.51,
+        "kategorie": "2"
+    },
+    {
+        "bild": "Bilder/Chilli-Soße.png",
+        "name": "Chilli-Soße",
+        "preis": 0.31,
+        "kategorie": "3"
+    },
+    {
+        "bild": "Bilder/Karamell-Soße.png",
+        "name": "Karamell-Soße",
+        "preis": 0.31,
+        "kategorie": "3"
+    },
+    {
+        "bild": "Bilder/Schoko-Soße.png",
+        "name": "Schoko-Soße",
+        "preis": 0.31,
+        "kategorie": "3"
+    },
+    {
+        "bild": "Bilder/Waldmeister-Soße.png",
+        "name": "Waldmeister-Soße",
+        "preis": 0.31,
+        "kategorie": "3"
+    }
+]

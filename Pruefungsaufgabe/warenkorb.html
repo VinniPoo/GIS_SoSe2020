@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="style.css">
+    <script src="warenkorb.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav id="navBar">
+                <a href="eisdiele.html"><img src="Bilder/Eis-Icon.png" alt="Startseite" id="eisIcon"></a>
+                <h2>Ice, Ice Baby</h2>
+                <h4>Warenkorb</h4>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <input type="submit" value="alles entfernen" id="entfernen">
+
+        <div id="warenkorbProdukte1"></div>
+
+        <form action="http://localhost:8100/" method="GET">
+
+            <fieldset>
+                <legend>Anmelden:</legend>
+                <input type="text" name="Vorname" placeholder="Vorname" id="Vorname"> <br> <br>
+                <input type="text" name="Nachname" placeholder="Nachname" id="Nachname"> <br> <br>
+                <input type="text" name="E-Mail" placeholder="E-Mail" id="E-Mail"> <br> <br>
+                <input type="text" name="Passwort" placeholder="*********" id="Passwort"> <br> <br>
+                <button type="submit" id="button1">Bestellung abschließen</button>
+            </fieldset>
+
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

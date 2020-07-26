@@ -1,0 +1,541 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b899aa;
+    background-size: 550px;
+    position: absolute;
+    margin-top: 0px;
+    width: 360px;
+}
+header>div{
+    position: fixed;
+    left: 0px;
+    width: 375px;
+    height: 60px;
+    background-color: #fdd0d6;
+    z-index: 100;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header div nav img {
+    position: relative;
+    width: 40px;
+    margin: 7px 7px 7px 0px;
+}
+header div nav h2{
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    margin-top: 5px;
+    left: 114.79px;
+}
+header div nav ul{
+    position: absolute;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+    margin: 40px 0px 0px 0px;
+    left: 50px;
+}
+header div nav ul li{
+    display: inline;
+    padding: 0px 5px 0px 5px;
+}
+header div nav ul li *{
+    margin: 0px;
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+}
+#warenkorb {
+    position: absolute;
+    right: 0px;
+    margin: 12px 0px 12px 12px;
+    width: 30px;
+}
+header div nav h4{
+    position: absolute;
+    margin: 13px;
+    top: 28px;
+    left: 133px;
+}
+#aufhänger{
+    width: 375px;
+    margin-top: 43px;
+    margin-left: -8px;
+    border-radius: 0px 0px 20px 20px;
+}
+main div~h3{
+    color: #fdd0d6;
+}
+#waffeln{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 20px 0px 20px;
+}
+#eis{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 20px 0px 20px;
+}
+#toppings{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 20px 0px 20px;
+}
+#soßen{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 20px 0px 20px;
+}
+.div{
+    margin: 10px;
+    padding: 10px;
+    background-color: #b7dde0;
+    background-size: 160px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#waffeln *{
+    width: 120px;
+    text-align: center;
+}
+#eis *{
+    width: 120px;
+    text-align: center;
+}
+#toppings *{
+    width: 120px;
+    text-align: center;
+}
+#soßen *{
+    width: 120px;
+    text-align: center;
+}
+img[alt=Eis-Gif]{
+    width: 360px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+hr{
+    border-color: black;
+    margin-top: 20px;
+}
+footer div ul{
+    position: absolute;
+    left: 90px;
+}
+footer div ul li{
+    margin: 5px 0px 10px 0px;
+    display: inline;
+}
+footer div * {
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    margin: 0px 20px 20px 0px;
+}
+#button {
+    width: 60px;
+    height: 30px;
+    background-color: #fdd0d6;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
+#toppings img{
+    width: 120px;
+}
+#einkaufswagen img{
+    width: 90px;
+}
+#warenkorbProdukte1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 20px 0px 20px;
+}
+#warenkorbProdukte1 *{
+    width: 120px;
+    text-align: center;
+}
+#warenkorbProdukte1 input{
+    width: 70px;
+}
+fieldset {
+    margin-left: 32px;
+    width: 280px;
+    margin-top: 100px;
+}
+#button:hover{
+    transform: scale(1.3);
+    transition: linear 0.05s;
+    cursor: pointer;
+}
+#einkaufswagen{
+    background-color: #fee19f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: sticky;
+    top: 70px;
+    text-align: center;
+}
+#einkaufswagen p {
+    display: inline;
+}
+#summenDiv {
+    background-color: #fee19f;
+    border-radius: 20px;
+    left: 160px;
+    width: 200px;
+    height: 35px;
+    position: fixed;
+    top: 67px;
+}
+#button1 {
+    width: 100px;
+    height: 40px;
+    background-color: #fdd0d6;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
+#entfernen {
+    position: fixed;
+    margin-top: -28px;
+    background-color: #b7dde0;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+}
+#entfernen:hover {
+    transform: scale(1.2);
+    transition: linear 0.05s;
+}
+#haendler {
+    margin-top: 10px;
+    background-color: #b7dde0;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+    width: 50px;
+}
+#haendler:hover {
+    transform: scale(1.2);
+    transition: linear 0.05s;
+}
+
+@media screen and (min-width: 600px){
+    body{
+        width: 584px;
+    }
+    header>div{
+        width: 600px;
+    }
+    header div nav img {
+        width: 50px;
+    }
+    header div nav h2{
+        left: 227.297px;
+    }
+    header div nav ul{
+        left: 165px;
+    }
+    #warenkorb {
+        width: 40px;
+    }
+    #aufhänger{
+        width: 600px;
+    }
+    #waffeln{
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+    main{
+        width: 584px;
+    }
+    #eis{
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+    #toppings{
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+    #soßen{
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+    .div{
+        background-color: #b7dde0;
+        background-size: 230px;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #waffeln *{
+        width: 210px;
+    }
+    #eis *{
+        width: 210px;
+    }
+    #toppings *{
+        width: 210px;
+    }
+    #soßen *{
+        width: 210px;
+    }
+    img[alt=Eis-Gif]{
+        width: 584px;
+    }
+    hr{
+        width: 584px;
+    }
+    footer div ul{
+        left: 220px;
+    }
+    #button {
+        width: 100px;
+        height: 50px;
+    }
+    #warenkorbProdukte1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+    #warenkorbProdukte1 *{
+        width: 210px;
+    }
+    header div nav h4{
+        left: 245.5px;
+    }
+    #summenDiv {
+        left: 150px;
+        width: 300px;
+        height: 16px;
+        top: 75px;
+    }
+    fieldset {
+        margin-left: 54px;
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body{
+        width: 1008px;
+    }
+    header>div{
+        width: 1024px;
+        height: 100px;
+    }
+    header div nav img {
+        width: 80px;
+    }
+    header div nav h2{
+        top: 10px;
+        left: 439.297px;
+    }
+    header div nav ul{
+        left: 370px;
+        margin: 70px 0px 0px 0px;
+    }
+    #warenkorb {
+        width: 70px;
+    }
+    #aufhänger{
+        width: 1024px;
+    }
+    #waffeln{
+        margin-left: auto;
+        margin-right: auto;
+        width: 924px;
+    }
+    main{
+        width: 1008px;
+    }
+    #eis{
+        margin-left: auto;
+        margin-right: auto;
+        width: 924px;
+    }
+    #toppings{
+        margin-left: auto;
+        margin-right: auto;
+        width: 924px;
+    }
+    #soßen{
+        margin-left: auto;
+        margin-right: auto;
+        width: 924px;
+    }
+    .div{
+        background-color: #b7dde0;
+        background-size: 220px;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #waffeln *{
+        width: 191px;
+    }
+    #eis *{
+        width: 191px;
+    }
+    #toppings *{
+        width: 191px;
+    }
+    #soßen *{
+        width: 191px;
+    }
+    img[alt=Eis-Gif]{
+        width: 1008px;
+    }
+    hr{
+        width: 1008px;
+    }
+    footer div ul{
+        left: 430px;
+    }
+    #button {
+        width: 90px;
+        height: 40px;
+    }
+    #warenkorbProdukte1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 924px;
+        margin-top: 120px;
+    }
+    #warenkorbProdukte1 *{
+        width: 191px;
+    }
+    header div nav h4{
+        top: 48px;
+        left: 457.5px;
+    }
+    #einkaufswagen{
+        top: 110px;
+    }
+    #summenDiv {
+        left: 360px;
+        width: 300px;
+        top: 105px;
+    }
+    fieldset {
+        margin-left: 54px;
+        width: 880px;
+        margin-top: 120px;
+    }
+    #entfernen {
+        position: fixed;
+        margin-top: -15px;
+        background-color: #b7dde0;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: black;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 1500px) {
+    body{
+        width: 1460px;
+    }
+    header>div{
+        width: 1485px;
+        height: 100px;
+    }
+    header div nav img {
+        width: 80px;
+    }
+    header div nav h2{
+        top: 10px;
+        left: 677.25px;
+    }
+    header div nav ul{
+        left: 610px;
+        margin: 70px 0px 0px 0px;
+    }
+    #warenkorb {
+        width: 70px;
+    }
+    #aufhänger{
+        width: 1485px;
+    }
+    #waffeln{
+        margin-left: auto;
+        margin-right: auto;
+        width: 924px;
+    }
+    main{
+        width: 1480px;
+    }
+    #eis{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1386px
+    }
+    #toppings{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1386px;
+    }
+    #soßen{
+        margin-left: auto;
+        margin-right: auto;
+        width: 924px;
+    }
+    .div{
+        background-color: #b7dde0;
+        background-size: 220px;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #waffeln *{
+        width: 191px;
+    }
+    #eis *{
+        width: 191px;
+    }
+    #toppings *{
+        width: 191px;
+    }
+    #soßen *{
+        width: 191px;
+    }
+    img[alt=Eis-Gif]{
+        width: 1465px;
+    }
+    hr{
+        width: 1465px;
+    }
+    footer div ul{
+        left: 670px;
+    }
+    #button {
+        width: 100px;
+        height: 50px;
+    }
+    #warenkorbProdukte1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1386px;
+    }
+    #warenkorbProdukte1 *{
+        width: 191px;
+    }
+    header div nav h4{
+        top: 48px;
+        left: 688px;
+    }
+    #summenDiv {
+        left: 590px;
+        width: 300px;
+    }
+    fieldset {
+        margin-left: 58px;
+        width: 1350px;
+    }
+}
